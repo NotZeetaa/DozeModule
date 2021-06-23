@@ -21,7 +21,7 @@ ui_print "   $DZ"
 	else 
 		break
 	fi
-	if [ $DZ -gt 3 ]; then
+	if [ $DZ -gt 2 ]; then
 		DZ=1
 	fi
 done
@@ -29,8 +29,8 @@ ui_print " "
 ui_print "  Selected: $DZ"
 #
 case $DZ in
- 1 ) FCTEXTAD1="Selected Light & Deep Doze Mode 😪"; cp -af $TMPDIR/mode/ld $MODPATH/system/bin;;
- 3 ) FCTEXTAD1="Selected Force Doze Mode 😴"; cp -af $TMPDIR/mode/force $MODPATH/system/bin;;
+ 1 ) FCTEXTAD1="Selected Light & Deep Doze Mode 😪"; cp -af $TMPDIR/mode/dp $MODPATH/system/bin;;
+ 2 ) FCTEXTAD1="Selected Force Doze Mode 😴"; cp -af $TMPDIR/mode/force $MODPATH/system/bin;;
 esac
 ui_print " "
 ui_print "- Mode: $FCTEXTAD1 "

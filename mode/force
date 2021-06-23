@@ -1,5 +1,6 @@
 #!/system/bin/sh
 MODDIR=${0%/*}
 
+dumpsys deviceidle enable
 dumpsys deviceidle force-idle
 

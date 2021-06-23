@@ -10,7 +10,7 @@ ui_print " "
 ui_print "  Vol+ = Next; Vol- = Select"
 ui_print " "
 ui_print "  1. Light & Deep Doze Mode "
-ui_print "  3. Force Doze Mode "
+ui_print "  2. Force Doze Mode "
 ui_print " "
 ui_print "  Select: "
 DZ=1

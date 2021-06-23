@@ -1,0 +1,5 @@
+#!/system/bin/sh
+MODDIR=${0%/*}
+
+
+dumpsys deviceidle deep

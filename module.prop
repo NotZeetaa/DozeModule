@@ -1,6 +1,6 @@
-id=AdbModule
-name=AdbModule
-version=v1.1
-versionCode=1.1
+id=DozeModule
+name=DozeModule
+version=v1
+versionCode=1
 author=NotZeetaa
-description=Adb Enabler and Adb Disabler by @NotZeetaa
+description=Doze Module Tweak to improve your battery and deep sleep by @NotZeetaa

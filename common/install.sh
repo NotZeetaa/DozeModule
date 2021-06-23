@@ -9,8 +9,7 @@ ui_print "    ×××××××××××××××××××××××××××××××"
 ui_print " "
 ui_print "  Vol+ = Next; Vol- = Select"
 ui_print " "
-ui_print "  1. Light Doze Mode "
-ui_print "  2. Deep Doze Mode "
+ui_print "  1. Light & Deep Doze Mode "
 ui_print "  3. Force Doze Mode "
 ui_print " "
 ui_print "  Select: "
@@ -30,8 +29,7 @@ ui_print " "
 ui_print "  Selected: $DZ"
 #
 case $DZ in
- 1 ) FCTEXTAD1="Selected Light Doze Mode"; cp -af $TMPDIR/mode/light $MODPATH/system/bin;;
- 2 ) FCTEXTAD1="Selected Deep Doze Mode"; cp -af $TMPDIR/mode/deep $MODPATH/system/bin;;
+ 1 ) FCTEXTAD1="Selected Light & Deep Doze Mode"; cp -af $TMPDIR/mode/ld $MODPATH/system/bin;;
  3 ) FCTEXTAD1="Selected Force Doze Mode"; cp -af $TMPDIR/mode/force $MODPATH/system/bin;;
 esac
 ui_print " "
